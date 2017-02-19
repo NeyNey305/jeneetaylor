@@ -1,0 +1,112 @@
+<div class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12" id="first-name">
+        <h1>JENEE TAYLOR</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="skinny-border">
+
+</div>
+<button class="accordion">Full Stack Web Developer</button>
+<div class="panel">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-12 col-md-offset-2">
+        <ul id="devicons">
+          <li><i class="devicon-css3-plain-wordmark"></i></li>
+          <li><i class="devicon-html5-plain-wordmark"></i></li>
+          <li><i class="devicon-javascript-plain"></i></li>
+          <li><i class="devicon-ruby-plain-wordmark"></i></li>
+          <li><i class="devicon-jquery-plain-wordmark"></i></li>
+          <li><i class="devicon-rails-plain-wordmark"></i></li>
+          <li><i class="devicon-git-plain-wordmark"></i></li>
+          <li><i class="devicon-python-plain-wordmark"></i></li>
+          <li><i class="devicon-php-plain"></i></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <p class="forever">Forever Expanding...</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- RECENT PROJECTS  ---------------------------------------->
+
+<button class="accordion">Recent Projects</button>
+<div class="panel">
+  <div class="container">
+    <div class="row" id="project-align">
+      <div class="col-md-4">
+        <a href="#" class="me2">#Me2</a>
+      </div>
+
+      <div class="col-md-4">
+        <a href="#" class="crc">Caribbean Regenerative Center</a>
+      </div>
+
+      <div class="col-md-4">
+        <a href="#" class="develdev">DevelDev</a>
+      </div>
+
+      <!-- <div class="col-md-3">
+        <a href="#"></a></a>
+      </div> -->
+    </div>
+  </div>
+</div>
+
+
+<!-- BIO ----------------------------------------------------->
+<button class="accordion">Bio</button>
+<div class="panel">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <p></p>
+      </div>
+
+      <div class="col-md-6">
+        <img src="" alt="">
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<button class="accordion">Contact</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+
+<script type="text/javascript">
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    }
+}
+
+</script>

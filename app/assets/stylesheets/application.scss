@@ -1,0 +1,174 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+.jumbotron {
+  background-image: url('jenee.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 600px;
+  margin: 0;
+  background-attachment: fixed;
+}
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: black;
+    color: #1a682c;
+    cursor: pointer;
+    font-size: 40px;
+    padding: 30px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: black;
+    color: white;
+
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0;
+    background-color: black;
+    display: none;
+    margin: 0;
+    border-radius: 0;
+    overflow: hidden;
+
+    transition: 0.6 ease;
+    transition-timing-function: ease;
+    // opacity: 0;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 1050px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+    padding-top: 4em;
+    padding-bottom: 4em;
+    margin: 0;
+
+}
+
+.skinny-border {
+  background-color: white;
+  height: 0.3em;
+}
+
+
+#first-name {
+  font-family: 'Julius Sans One', sans-serif;
+  color: white;
+  // font-size: 90px;
+  letter-spacing: 2em;
+  text-align: center;
+}
+
+#devicons {
+  list-style: none;
+  display: inline-flex;
+  letter-spacing: 2.5em;
+  text-align: center;
+  margin-left: -25px;
+}
+
+.forever {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px;
+  padding-top: 1.8em;
+  text-align: center;
+}
+
+.devicon-css3-plain-wordmark {
+  color: #47a3da;
+  font-size: 3.5em;
+}
+
+.devicon-html5-plain-wordmark {
+  font-size: 3.5em;
+  color: #F14A29;
+}
+
+.devicon-javascript-plain {
+  font-size: 3.5em;
+  color: #f0db4f;
+}
+
+.devicon-ruby-plain-wordmark {
+  font-size: 3.5em;
+  color: #d91404;
+}
+
+.devicon-jquery-plain-wordmark {
+  font-size: 3.5em;
+  color: #0769ad;
+}
+
+.devicon-rails-plain-wordmark {
+  color: #a62c46;
+  font-size: 3.5em;
+}
+
+.devicon-git-plain-wordmark {
+  color: #f34f29;
+  font-size: 3.5em;
+}
+
+.devicon-python-plain-wordmark {
+  font-size: 3.5em;
+  color: #ffd845;
+
+}
+
+.devicon-php-plain {
+  font-size: 3.5em;
+  color: #47a3da;
+}
+
+
+/////////////////////// PROJECTS /////////////////////////////
+
+.me2 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 30px;
+  color: #cc3bce;
+}
+
+.me2:hover {
+  text-decoration: none;
+}
+
+
+.crc {
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  color: #a7c6aa;
+}
+
+.crc:hover {
+  text-decoration: none;
+}
+
+.develdev {
+  color: #8e1904;
+  font-size: 30px;
+  font-family: 'Pacifico', cursive;
+}
+
+.develdev:hover {
+  text-decoration: none;
+}
+
+#project-align {
+  text-align: center;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
