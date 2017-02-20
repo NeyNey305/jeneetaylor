@@ -11,6 +11,7 @@
   background-attachment: fixed;
 }
 
+////////////////////////// ACCORDION //////////////////////////////////////
 
 /* Style the buttons that are used to open and close the accordion panel */
 button.accordion {
@@ -25,13 +26,18 @@ button.accordion {
     border: none;
     outline: none;
     transition: 0.4s;
+    margin: 0;
     font-family: 'Julius Sans One', sans-serif;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-button.accordion.active, button.accordion:hover {
-    background-color: black;
-    color: white;
+button.accordion.active {
+  background-color: black;
+  color: #dbc81e;
+}
+button.accordion:hover {
+  background-color: black;
+  color: white;
 
 }
 
@@ -71,6 +77,8 @@ div.panel.show {
   letter-spacing: 2em;
   text-align: center;
 }
+
+//////////////// FULL STACK WEB DEVELOPER /////////////////////////////////////
 
 #devicons {
   list-style: none;
@@ -144,6 +152,11 @@ div.panel.show {
 
 .me2:hover {
   text-decoration: none;
+  color: #cc3bce;
+  -webkit-stroke-width: 5.3px;
+      -webkit-stroke-color: #FFFFFF;
+      -webkit-fill-color: #FFFFFF;
+      text-shadow: 1px 0px 20px white;
 }
 
 
@@ -155,6 +168,11 @@ div.panel.show {
 
 .crc:hover {
   text-decoration: none;
+  color: #a7c6aa;
+  -webkit-stroke-width: 5.3px;
+      -webkit-stroke-color: #FFFFFF;
+      -webkit-fill-color: #FFFFFF;
+      text-shadow: 1px 0px 20px white;
 }
 
 .develdev {
@@ -165,10 +183,46 @@ div.panel.show {
 
 .develdev:hover {
   text-decoration: none;
+  color: #8e1904;
+  -webkit-stroke-width: 5.3px;
+      -webkit-stroke-color: #FFFFFF;
+      -webkit-fill-color: #FFFFFF;
+      text-shadow: 1px 0px 20px white;
 }
 
 #project-align {
   text-align: center;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
+}
+
+#spindiv {
+  opacity: 0.5;
+}
+
+#spindiv:hover {
+  // transform: rotateY(180deg);
+  opacity: 1;
+
+}
+
+////////////////////// BIO //////////////////////////////////
+
+.bio-pic {
+  width: 100%;
+  height: auto;
+  // padding-left: 7em;
+  padding-top: 1.5em;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.bio-text {
+  font-size: 18px;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.5em;
+  color: #333;
+  padding-top: 2em;
+  // padding-right:7em;
+
 }
